@@ -1,0 +1,90 @@
+/*global style*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.all{
+	font-family: "微软雅黑";
+	width:100%;
+	height:1000px;
+	margin: 0 auto;
+	background-color: #ddd;
+}
+
+
+
+
+/*head style*/
+.head-wrap{
+	position: fixed;
+	width:100%;
+	height:40px;
+	background-color: #fff;
+	opacity:0.9;
+	z-index: 9;
+}
+	.head-wrap>h3{
+		color:#222;
+		display: line;
+		margin-left:15%;
+		margin-top:8px;
+		cursor: pointer;
+	}
+	
+
+/*main style*/
+.main-wrap{
+	padding-top: 45px;
+}
+
+	.page{
+		position:relative;
+		margin:0 auto;
+		width:920px;
+		height:900px;
+		background-color: #fff;
+		line-height: 2em;
+	}
+
+		.link{
+			font-size: 8px;
+			float:left;
+			margin-left:20px;
+		}	
+		.link>a{
+			text-decoration: none;
+			color:#888;
+		}
+		#link-1:hover{
+			color:#222;
+		}
+		#link-2:hover{
+			color:#222;
+		}
+
+ 	.animate-container{
+ 		width: 100%;
+ 		position: relative;
+ 	}
+ 		.box{
+ 			position: absolute;
+ 			width:30%;
+ 			height:250px;
+ 			left:15px;
+ 			background-color: #eee;
+ 			border-radius: 8px;
+ 			cursor: pointer;
+ 			box-shadow: 0 3px 3px 1px #ccc;
+ 		}
+ 		#box-2{left:35%;}#box-3{left:68%;}#box-4{top:270px;}#box-5{top:270px;left:35%;}
+ 		#box-6{top:270px;left:68%;}#box-7{top:540px;}#box-8{top:540px;left:35%;}#box-9{top:540px;left:68%;}
+		
+/*foot style*/
+.foot-wrap{
+	width:100%;
+	height:60px;
+	background-color:#fff; 
+	margin:5px auto;
+}

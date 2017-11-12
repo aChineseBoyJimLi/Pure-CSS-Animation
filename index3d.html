@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css动画演示</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate3d.css">
+	<script src = "js/jquery-3.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src = "js/common.js"></script> -->
+</head>
+<body>
+	<div class="all">
+		<div class="head-wrap">
+			<h3 id="logo">css动画演示</h3>
+		</div>
+		<div class="main-wrap">
+			<div class="page">
+				<div class="select-2d">
+					<div class="link"><a id = "link-1" href="index2d.html">2D动画演示</a></div>
+				</div>
+				<div class="select-3d">
+					<div class="link"><a id = "link-2" href="index3d.html">3D动画演示</a></div>
+				</div>
+				<div class="line">
+					<canvas id="arrow-line" width="920" height="30"></canvas>
+				</div>
+				<div class="animate-container">
+					<div id="box-1" class="box">
+						<div class="book">
+							<div class="bookBg"><img src="images/book/bookBg.png" width="250px" height="156.25px"></div>
+							<div class="right"><img src="images/book/bookRight.png" width="120px" height="151px"></div>
+							<div class="right"><img src="images/book/bookRight.png" width="120px" height="151px"></div>
+							<div class="right"><img src="images/book/bookRight.png" width="120px" height="151px"></div>
+						</div>
+					</div>
+					<div id="box-2" class="box">
+						<div class="hello">
+							<div>H</div>
+							<div>e</div>
+							<div>l</div>
+							<div>l</div>
+							<div>o</div>
+						</div>
+					</div>
+					<div id="box-3" class="box">
+						<div id="sky">
+						  	<div class="bird">
+						    <div class="bird_body">
+						      <div class="bird_head"></div>
+						      <div class="bird_wing_left">
+						        <div class="bird_wing_left_top"></div>
+						      </div>
+						      <div class="bird_wing_right">
+						        <div class="bird_wing_right_top"></div>
+						      </div>
+						      <div class="bird_tail_left"></div>
+						      <div class="bird_tail_right"></div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div id="box-4" class="box">
+						<div class="cubic-1">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+						</div>
+					</div>
+					<div id="box-5" class="box">
+						<div class="cubic-2">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+						</div>
+					</div>
+					<div id="box-6" class="box">
+						<div class="cubic-3">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+						</div>
+					</div>
+					<div id="box-7" class="box">
+						<div class="round">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+						</div>
+					</div>
+					<div id="box-8" class="box">
+						<div class="card">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+						</div>
+					</div>
+					<div id="box-9" class="box">
+						<div class="round-2">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot-wrap">
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+		var c=document.getElementById("arrow-line");
+		var cxt=c.getContext("2d");
+		cxt.moveTo(15,8);
+		cxt.lineTo(120,8);
+		cxt.lineTo(125,1);
+		cxt.lineTo(130,8);
+		cxt.lineTo(900,8);
+		cxt.stroke();
+	</script>
+</body>
+</html>
